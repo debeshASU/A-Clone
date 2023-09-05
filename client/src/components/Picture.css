@@ -1,0 +1,15 @@
+.imageDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    width: 100%; /* Make the container width match the window width */
+    max-height: 300px; /* Set a maximum height for the image */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .imageDisplay img {
+    width: 100%; /* Make the image width fit the container width */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  

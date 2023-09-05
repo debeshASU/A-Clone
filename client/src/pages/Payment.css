@@ -1,0 +1,54 @@
+/* Center the payment form */
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your needs */
+    background-color: #f3f3f3;
+  }
+  
+  /* Apply styling to the form */
+  .payment-form {
+    width: 400px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Style the CardElement */
+  .card-element {
+    display: block;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the submit button */
+  .paymentButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #febd69;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .paymentButton:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Style error messages */
+  .error-message {
+    color: #ff0000;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  

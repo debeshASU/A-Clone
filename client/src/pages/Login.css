@@ -1,0 +1,90 @@
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the main container */
+.login {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column; /* Display the logo and form in a column */
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the logo */
+.login img {
+    width: 300px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/* Style for the login container */
+.loginContainer {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin: 20px auto; /* Add margin on top and bottom, centering the container */
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style for form elements */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Adjust padding for spacing */
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.custom-toast {
+    background-color: #f0c14b !important;
+    color: black !important; /* Set text color if needed */
+}
+
+
+/* Style for buttons */
+
+.signInBtn {
+    background-color: #f0c14b;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.createAccountBtn {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    color: #555;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for the agreement text */
+p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #555;
+}

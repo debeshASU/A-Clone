@@ -1,0 +1,46 @@
+.orders-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.order {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.order h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.orderImage {
+    width: 200px; /* or any preferred size */
+    height: 200px; /* or any preferred size */
+    object-fit: cover; /* Ensures image doesn't get stretched */
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.total-price {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.address {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
